@@ -1,0 +1,168 @@
+
+.lop0{
+  background-image: linear-gradient(rgb(148, 7, 148),white);
+ 
+
+ }
+   
+    .form1 {
+     background-color: rgba(21, 23, 43,0.1);
+     border-radius: 20px;
+     box-sizing: border-box;
+     height: 520px;
+     padding: 20px;
+     width: 370px;
+    margin-top: 80px;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+   .mkn{
+     margin-top: 8px;
+   }
+   
+   .title1 {
+     color: #eee;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 50px;
+     font-weight: 600;
+     text-align: center;
+   }
+
+   .subtitle1 {
+     color: #eee;
+     font-family: sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     
+     text-align: center;
+   }
+   
+   .input-container2 {
+     height: 40px;
+     position: relative;
+     width: 280px
+   }
+   .input-container1 {
+     height: 110px;
+     position: relative;
+   }
+ 
+   .ic1 {
+     margin-top: 40px;
+     
+    
+   }
+   
+   .ic21 {
+     margin-top: 30px;
+     margin-right: 14px;
+     margin-left: 25px;
+     box-shadow: 4px 4px 6px black;
+    
+   }
+   
+   .input {
+     background-color: white;
+     border-radius: 5px;
+     border: 0;
+     box-sizing: border-box;
+     color: black;
+     font-size: 18px;
+     height: 100%;
+     outline: 0;
+     padding: 4px 20px 0;
+     width: 100%;
+   }
+   
+   .cut {
+     
+     border-radius: 10px;
+     height: 20px;
+     left: 20px;
+     position: absolute;
+     transform: translateY(0);
+     transition: transform 200ms;
+     width: 76px;
+   }
+   
+   .cut-short {
+     width: 50px;
+   }
+   
+   .input:focus ~ .cut,
+   .input:not(:placeholder-shown) ~ .cut {
+     transform: translateY(8px);
+   }
+   
+   .placeholder {
+     color: #9090a0;
+     font-family: sans-serif;
+     left: 20px;
+     line-height: 14px;
+     pointer-events: none;
+     position: absolute;
+     transform-origin: 0 50%;
+     transition: transform 200ms, color 200ms;
+     top: 10px;
+   }
+   
+   .input:focus ~ .placeholder,
+   .input:not(:placeholder-shown) ~ .placeholder {
+     transform: translateY(-30px) translateX(10px) scale(0.75);
+   }
+   
+   .input:not(:placeholder-shown) ~ .placeholder {
+     color: #808097;
+   }
+   
+   .input:focus ~ .placeholder {
+     color: rgb(105, 9, 105);
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+   }
+   
+   .submit1 {
+     background-color: rgb(146, 28, 146);
+     border-radius: 12px;
+     border: 0;
+     box-sizing: border-box;
+     color: #eee;
+     cursor: pointer;
+     font-size: 18px;
+     height: 50px;
+     margin-top: 38px;
+    text-align: center;
+    margin-left: 27px;
+    width: 280px;
+    
+   }
+   
+   .submit:active {
+     background-color: #06b;
+   }
+   
+ .signupp{
+  cursor: pointer;
+ }
+ .hjg{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: center;
+  font-size: 18px;
+}
+.signuppp{
+  color: blue;
+  margin-left: 8px;
+}
+.signuppp:hover{
+  text-decoration: underline;
+}
+@media only screen and (max-width: 700px) {
+ .form1{
+    margin-top:300px ;
+  }
+}

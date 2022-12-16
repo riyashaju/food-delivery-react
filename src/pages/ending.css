@@ -1,0 +1,52 @@
+.mnb{
+    width: 100%;
+    height: 300px;
+    background-color:  rgb(83, 5, 83);
+    text-align: center;
+}
+.ull{
+  display: flex;
+  margin-top: 20px;
+}
+
+.lii{
+    margin-left: 35px;
+    color: white;  
+    font-size: 20px;
+    font-weight: 300;
+}
+.liii{
+    list-style-type: none;
+    margin-top: 24px;
+}
+.lii:hover{
+    text-decoration: none;
+    color: red;
+}
+.faicons{
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.faicons:hover{
+    color: red;
+}
+.as{
+    margin-top: 50px;
+}
+.wea{
+    color: red;
+    font-size: 20px;
+  
+    margin-left: 30px;
+    
+}
+.rra{
+    color: white;
+
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+  
+}
